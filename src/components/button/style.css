@@ -1,0 +1,25 @@
+button.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  border: none;
+  background: #fcdd06 0% 0% no-repeat padding-box;
+  color: #000;
+}
+
+button.btn:active,
+button.btn:focus,
+button.btn:active:focus {
+  background: #fcdd06 0% 0% no-repeat padding-box;
+  color: #000;
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+
+button.btn:hover {
+  background: #fcdd06 0% 0% no-repeat padding-box;
+  color: #000;
+}

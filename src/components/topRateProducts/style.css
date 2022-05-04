@@ -1,0 +1,13 @@
+.top-rate-products {
+  padding: 50px 0;
+}
+
+.top-rate-products .row:last-of-type {
+  border: 1px solid #fcdd06;
+  border-radius: 16px;
+}
+
+.top-rate-products .row:last-of-type .col-sm-4:nth-last-of-type(2){
+      border-right: 1px solid #F2F2F2;
+      border-left: 1px solid #F2F2F2;
+}

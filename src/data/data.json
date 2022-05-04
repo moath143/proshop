@@ -1,0 +1,84 @@
+{
+  "slider": [
+    {
+      "title": "playstation 5",
+      "description": "Lightining-fast downlad speed with super-fast SSD storage",
+      "discount": "Save up to 39.99$",
+      "image": "./src/Assets/img1.png"
+    },
+    {
+      "title": "apple airpods",
+      "description": "AirPods are the best-selling headphones in the world",
+      "discount": "Save up to 49.99$",
+      "image": "./src/Assets/img12.png"
+    },
+    {
+      "title": "iphone 11 pro",
+      "description": "Pro cameras.Pro display.Pro performance.Pro battery life.",
+      "discount": "Save up to 99.99$",
+      "image": "./src/Assets/img13.png"
+    }
+  ],
+  "categories": [
+    {
+      "title": "laptop",
+      "image": "./src/Assets/img2.png"
+    },
+    {
+      "title": "computer components",
+      "image": "./src/Assets/img3.png"
+    },
+    {
+      "title": "devices",
+      "image": "./src/Assets/img5.png"
+    },
+    {
+      "title": "accessories",
+      "image": "./src/Assets/img4.png"
+    }
+  ],
+  "products": [
+    {
+      "title": "Apple iPhone 11 Pro 256GB Memory",
+      "rating": "4.5",
+      "price": "499.99$",
+      "image": "./src/Assets/img8.png"
+    },
+    {
+      "title": "Apple Airpods Wireless Bluetooth Headset",
+      "rating": "4",
+      "price": "99.99$",
+      "newPrice": "89.99$",
+      "ratioDiscount": "-30%",
+      "image": "./src/Assets/img7.png"
+    },
+    {
+      "title": "Sony Playstation 4 Pro White Version",
+      "rating": "1",
+      "price": "399.99$",
+      "image": "./src/Assets/img6.png"
+    }
+  ],
+  "topRateProducts": [
+    {
+      "title": "Canon Eos 80D DSLR Camera",
+      "rating": "4.5",
+      "price": "799.99$",
+      "image": "./src/Assets/img11.png"
+    },
+    {
+      "title": "Logitech G-Series Gaming Mouse",
+      "rating": "5",
+      "price": "49.99$",
+      "newPrice": "89.99$",
+      "ratioDiscount": "-30%",
+      "image": "./src/Assets/img10.png"
+    },
+    {
+      "title": "Amazon Echo Dot 3rd Generation",
+      "rating": "5",
+      "price": "29.99$",
+      "image": "./src/Assets/img9.png"
+    }
+  ]
+}
