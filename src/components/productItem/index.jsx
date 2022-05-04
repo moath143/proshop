@@ -7,7 +7,7 @@ import './style.css'
 
 
 
-const producsUrl = `http://localhost:8000/products`
+const producsUrl = `https://moath143.github.io/apiproshop/data.json`;
 
 class ProductItem extends Component {
     state = {
@@ -16,8 +16,9 @@ class ProductItem extends Component {
     
     componentDidMount() {
         axios.get(producsUrl)
-            .then(res => {
-                this.setState({ products: res.data })
+          .then(res => {
+              console.log(res.data);
+                this.setState({ products: res.data.products })
             })
     
      }

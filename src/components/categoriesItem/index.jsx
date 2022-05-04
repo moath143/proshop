@@ -4,7 +4,7 @@ import axios from "axios";
 
 
 
-const categoriesUrl = `http://localhost:8000/categories`;
+const categoriesUrl = `https://moath143.github.io/apiproshop/data.json`;
 
 class CategoriesItem extends Component {
 
@@ -14,8 +14,9 @@ class CategoriesItem extends Component {
 
   componentDidMount() {
     axios.get(categoriesUrl).then((res) => {
+      console.log(res.data);
       this.setState({
-        categories: res.data,
+        categories: res.data.categories,
       });
     });
   }

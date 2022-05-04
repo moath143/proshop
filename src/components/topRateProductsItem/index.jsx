@@ -5,7 +5,7 @@ import Buttons from "./../button";
 import axios from "axios";
 import "./style.css";
 
-const topRateProductsUrl = `http://localhost:8000/topRateProducts`;
+const topRateProductsUrl = `https://moath143.github.io/apiproshop/data.json`;
 
 class RateProducts extends Component {
   state = {
@@ -14,7 +14,7 @@ class RateProducts extends Component {
 
   componentDidMount() {
     axios.get(topRateProductsUrl).then((res) => {
-      this.setState({ rateProduct: res.data });
+      this.setState({ rateProduct: res.data.topRateProducts });
     });
   }
   render() {

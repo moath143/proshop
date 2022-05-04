@@ -9,10 +9,9 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-
 import "./style.css";
 
-const slideUrl = "http://localhost:8000/slider";
+const slideUrl = "https://moath143.github.io/apiproshop/data.json";
 
 class SlideItem extends Component {
   state = {
@@ -22,7 +21,7 @@ class SlideItem extends Component {
   componentDidMount() {
     axios.get(slideUrl).then((res) => {
       this.setState({
-        slide: res.data,
+        slide: res.data.slider,
       });
     });
   }
@@ -37,9 +36,9 @@ class SlideItem extends Component {
                 className="d-flex flex-column align-items-start justify-content-center"
                 sm={6}
               >
-                <p className='discount'> {item.discount} </p>
-                <h1 className='title'> {item.title} </h1>
-                <p className='description'> {item.description} </p>
+                <p className="discount"> {item.discount} </p>
+                <h1 className="title"> {item.title} </h1>
+                <p className="description"> {item.description} </p>
                 <Buttons className={"btn-slide"} title={"SHOP NOW"} />
               </Col>
               <Col sm={6}>
