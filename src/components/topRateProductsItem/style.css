@@ -1,37 +1,37 @@
-.top-rate-products .card {
+ .card {
   border-radius: 16px;
   border: none;
   padding: 20px;
   height: 655px;
 }
 
-.top-rate-products .card .product-name {
+ .card .product-name {
   font-size: 24px;
   letter-spacing: 0.48px;
   color: #242424;
 }
 
-.top-rate-products .card .product-price {
+ .card .product-price {
   font-size: 30px;
   font-weight: bold;
   letter-spacing: 0.6px;
   color: #242424;
 }
 
-.top-rate-products .card img {
+ .card img {
   border-radius: 16px;
   height: 342px;
   object-fit: contain;
 }
 
-.top-rate-products .btns-cart {
+ .btns-cart {
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-between;
   gap: 10px;
 }
 
-.top-rate-products .btns-cart .btn-cart {
+ .btns-cart .btn-cart {
   background: #f2f2f2 0% 0% no-repeat padding-box;
   border-radius: 10px;
   font-size: 24px;
@@ -39,11 +39,11 @@
   width: 100%;
 }
 
-.top-rate-products .btns-cart .btn-cart:hover {
+ .btns-cart .btn-cart:hover {
   background: #fcdd06 0% 0% no-repeat padding-box;
 }
 
-.top-rate-products .btns-cart .icon-cart {
+ .btns-cart .icon-cart {
   background: #f2f2f2 0% 0% no-repeat padding-box;
   border-radius: 10px;
   max-width: 54px;
@@ -51,6 +51,6 @@
   height: 62px;
 }
 
-.top-rate-products .btns-cart .icon-cart:active {
+ .btns-cart .icon-cart:active {
   background: #f2f2f2 0% 0% no-repeat padding-box;
 }

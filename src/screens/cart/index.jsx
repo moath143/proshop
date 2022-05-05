@@ -3,9 +3,6 @@ import Navbars from './../../components/navbar';
 import { Container, Row, Col, Image } from 'react-bootstrap';
 import './style.css'
 import Buttons from '../../components/button';
-// const Iphone = "https://proshop.101bloom.com/Assets/img14.PNG";
-// const  Airpod = "https://proshop.101bloom.com/Assets/img15.PNG";
-// const  Playsation = "https://proshop.101bloom.com/Assets/img16.PNG";
 
 import Iphone from './../../Assets/img14.png';
 import Airpod from "./../../Assets/img15.png";

@@ -7,6 +7,7 @@ import Wisthlist from './screens/wishlist';
 import Cart from './screens/cart';
 import ForgotPassword from './screens/forgotPassword';
 import Signup from './screens/signup';
+import EmptyCart from "./screens/emptyCart";
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Route path="/cart" element={<Cart />} />
         <Route path="/forgot-password" element={<ForgotPassword />} />
         <Route path="/signup" element={<Signup />} />
+        <Route path="/empty-cart" element={<EmptyCart />} />
       </Routes>
     </div>
   );
