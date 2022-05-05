@@ -3,9 +3,9 @@ import Navbars from './../../components/navbar';
 import { Container, Row, Col, Image } from 'react-bootstrap';
 import './style.css'
 import Buttons from '../../components/button';
-// import Iphone from "../../Assets/img14.png";
-// import Airpod from "../../Assets/img15.png";
-// import Playsation from "../../Assets/img16.png";
+import Iphone from "../../Assets/img14.png";
+import Airpod from "../../Assets/img15.png";
+import Playsation from "../../Assets/img16.png";
 
 
 const Cart = () => {
@@ -22,7 +22,7 @@ const Cart = () => {
                 icon={<i class="fa-solid fa-xmark"></i>}
               />
               <div className="cart-item-image">
-                {/* <Image src={Iphone} alt="iphone" thumbnail={true} /> */}
+                <Image src={Iphone} alt="iphone" thumbnail={true} />
               </div>
               <h3>Apple iPhone 11 Pro 256GB Memory</h3>
               <div className="count-item">
@@ -40,7 +40,7 @@ const Cart = () => {
                 icon={<i class="fa-solid fa-xmark"></i>}
               />
               <div className="cart-item-image">
-                {/* <Image src={Airpod} alt="iphone" thumbnail={true} /> */}
+                <Image src={Airpod} alt="iphone" thumbnail={true} />
               </div>
               <h3>Apple Airpods Wireless Bluetooth Headset</h3>
               <div className="count-item">
@@ -58,7 +58,7 @@ const Cart = () => {
                 icon={<i class="fa-solid fa-xmark"></i>}
               />
               <div className="cart-item-image">
-                {/* <Image src={Playsation} alt="iphone" thumbnail={true} /> */}
+                <Image src={Playsation} alt="iphone" thumbnail={true} />
               </div>
               <h3>Sony Playstation 4 Pro White Version</h3>
               <div className="count-item">
