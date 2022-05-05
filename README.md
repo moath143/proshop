@@ -2,7 +2,7 @@
 Soon => [Live Demo](https://proshop-kappa.vercel.app/)
 
 ## Doing
-* [ ] Home page
+* [ ] Home page 
 * [ ] Shopping cart
 * [ ] Review order (Shipping and Payment)
 * [ ] Empty cart
@@ -19,3 +19,6 @@ Soon => [Live Demo](https://proshop-kappa.vercel.app/)
 
 
 ## Done
+* [x] Home page 
+* [x] Login 
+* [x] Sign up
