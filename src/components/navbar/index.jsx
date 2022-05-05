@@ -1,5 +1,6 @@
 import React from "react";
 import { Navbar, Container, Nav, Form } from "react-bootstrap";
+import {Link} from 'react-router-dom'
 import "./style.css";
 import Buttons from "./../../components/button/index";
 
@@ -8,9 +9,9 @@ const Navbars = () => {
     <Navbar variant={"dark"} expand="lg">
       <Container>
         <div className="header">
-          <Navbar.Brand href="#home">
-            <span>Pro</span>Shop
-          </Navbar.Brand>
+            <Link to='/' className='navbar-brand'>
+              <span>Pro</span>Shop
+            </Link>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Form>
@@ -22,18 +23,18 @@ const Navbars = () => {
               ></Buttons>
             </Form>
             <Nav>
-              <Nav.Link href="#home">
+              <Link to='/login' className='nav-link'>
                 <i className="fa-solid fa-user"></i>
                 <span>Login / Sign up</span>
-              </Nav.Link>
-              <Nav.Link href="#link">
+              </Link>
+              <Link to='/wishlist' className='nav-link'>
                 <i className="fa-solid fa-bookmark"></i>
                 <span>Wishlist</span>
-              </Nav.Link>
-              <Nav.Link href="#link">
+              </Link>
+              <Link to='/cart' className='nav-link'>
                 <i className="fa-solid fa-cart-shopping"></i>
                 <span>Cart</span>
-              </Nav.Link>
+              </Link>
             </Nav>
           </Navbar.Collapse>
         </div>
