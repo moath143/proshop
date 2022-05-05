@@ -2,15 +2,11 @@
 Soon => [Live Demo](https://proshop-kappa.vercel.app/)
  
 ## Doing
-1. [ ] Home page 
-2. [ ] Shopping cart
 3. [ ] Review order (Shipping and Payment)
 4. [ ] Empty cart
 5. [ ] Review order (Place an Order)
 6. [ ] Payment Success
 7. [ ] Search Result
-8. [ ] Login 
-9. [ ] Sign up
 10. [ ] Product Details 1 (3 products)
 11. [ ] My Profile
 12. [ ] Products ( Table, edit and delete ) and Create Product
@@ -22,3 +18,4 @@ Soon => [Live Demo](https://proshop-kappa.vercel.app/)
 * [x] Home page 
 * [x] Login 
 * [x] Sign up
+* [x] Shopping cart
