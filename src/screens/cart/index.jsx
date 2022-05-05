@@ -3,9 +3,9 @@ import Navbars from './../../components/navbar';
 import { Container, Row, Col, Image } from 'react-bootstrap';
 import './style.css'
 import Buttons from '../../components/button';
-import Iphone from "../../Assets/img14.png";
-import Airpod from "../../Assets/img15.png";
-import Playsation from "../../Assets/img16.png";
+const Iphone = "https://proshop.101bloom.com/Assets/img14.PNG";
+const  Airpod = "https://proshop.101bloom.com/Assets/img15.PNG";
+const  Playsation = "https://proshop.101bloom.com/Assets/img16.PNG";
 
 
 const Cart = () => {
@@ -19,16 +19,16 @@ const Cart = () => {
             <div className="cart-item">
               <Buttons
                 className="cross"
-                icon={<i class="fa-solid fa-xmark"></i>}
+                icon={<i className="fa-solid fa-xmark"></i>}
               />
               <div className="cart-item-image">
                 <Image src={Iphone} alt="iphone" thumbnail={true} />
               </div>
               <h3>Apple iPhone 11 Pro 256GB Memory</h3>
               <div className="count-item">
-                <Buttons icon={<i class="fa-solid fa-minus"></i>} />
+                <Buttons icon={<i className="fa-solid fa-minus"></i>} />
                 <p>1</p>
-                <Buttons icon={<i class="fa-solid fa-plus"></i>} />
+                <Buttons icon={<i className="fa-solid fa-plus"></i>} />
               </div>
               <div className="price-item">
                 <h1>499.99$</h1>
@@ -37,16 +37,16 @@ const Cart = () => {
             <div className="cart-item">
               <Buttons
                 className="cross"
-                icon={<i class="fa-solid fa-xmark"></i>}
+                icon={<i className="fa-solid fa-xmark"></i>}
               />
               <div className="cart-item-image">
                 <Image src={Airpod} alt="iphone" thumbnail={true} />
               </div>
               <h3>Apple Airpods Wireless Bluetooth Headset</h3>
               <div className="count-item">
-                <Buttons icon={<i class="fa-solid fa-minus"></i>} />
+                <Buttons icon={<i className="fa-solid fa-minus"></i>} />
                 <p>1</p>
-                <Buttons icon={<i class="fa-solid fa-plus"></i>} />
+                <Buttons icon={<i className="fa-solid fa-plus"></i>} />
               </div>
               <div className="price-item">
                 <h1>499.99$</h1>
@@ -55,16 +55,16 @@ const Cart = () => {
             <div className="cart-item">
               <Buttons
                 className="cross"
-                icon={<i class="fa-solid fa-xmark"></i>}
+                icon={<i className="fa-solid fa-xmark"></i>}
               />
               <div className="cart-item-image">
                 <Image src={Playsation} alt="iphone" thumbnail={true} />
               </div>
               <h3>Sony Playstation 4 Pro White Version</h3>
               <div className="count-item">
-                <Buttons icon={<i class="fa-solid fa-minus"></i>} />
+                <Buttons icon={<i className="fa-solid fa-minus"></i>} />
                 <p>1</p>
-                <Buttons icon={<i class="fa-solid fa-plus"></i>} />
+                <Buttons icon={<i className="fa-solid fa-plus"></i>} />
               </div>
               <div className="price-item">
                 <h1>499.99$</h1>
