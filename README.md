@@ -3,7 +3,6 @@ Soon => [Live Demo](https://proshop-kappa.vercel.app/)
  
 ## Doing
 3. [ ] Review order (Shipping and Payment)
-4. [ ] Empty cart
 5. [ ] Review order (Place an Order)
 6. [ ] Payment Success
 7. [ ] Search Result
@@ -19,3 +18,4 @@ Soon => [Live Demo](https://proshop-kappa.vercel.app/)
 * [x] Login 
 * [x] Sign up
 * [x] Shopping cart
+* [x] Empty cart
