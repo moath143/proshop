@@ -9,6 +9,8 @@ import ForgotPassword from './screens/forgotPassword';
 import Signup from './screens/signup';
 import EmptyCart from "./screens/emptyCart";
 import Profile from './screens/profile';
+import Products from './screens/products';
+import CreateProduct from './screens/createProduct';
 
 
 function App() {
@@ -23,6 +25,8 @@ function App() {
         <Route path="/signup" element={<Signup />} />
         <Route path="/empty-cart" element={<EmptyCart />} />
         <Route path="/profile" element={<Profile />} />
+        <Route path="/products" element={<Products />} />
+        <Route path="/create-product" element={<CreateProduct />} />
       </Routes>
     </div>
   );

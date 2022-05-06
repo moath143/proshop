@@ -1,8 +1,9 @@
 import React from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
-import "./style.css";
 import Navbars from "./../../components/navbar";
 import Buttons from "../../components/button";
+import { Link } from 'react-router-dom';
+import "./style.css";
 
 const Profile = () => {
   return (
@@ -24,6 +25,9 @@ const Profile = () => {
                 <li>Wishlist</li>
                 <li>notifcations</li>
                 <li>settings</li>
+                <li>
+                  <Link to="/products">Products</Link>
+                </li>
                 <hr />
                 <li>logout</li>
               </ul>
@@ -55,7 +59,7 @@ const Profile = () => {
                   src="https://via.placeholder.com/150"
                   roundedCircle={true}
                 />
-                <Buttons className='upload-image' title={"upload new photo"} />
+                <Buttons className="upload-image" title={"upload new photo"} />
               </div>
             </div>
           </Col>

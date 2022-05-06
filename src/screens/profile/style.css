@@ -37,6 +37,11 @@
   padding: 20px 0 0 20px;
 }
 
+.profile-section .profile-menu ul li a{
+  text-decoration: none;
+  color: #242424;
+}
+
 .profile-section .profile-menu ul li:last-of-type {
   padding: 0 0 20px 20px;
 }
@@ -47,13 +52,12 @@
   background: #f2f2f2 0% 0% no-repeat padding-box;
   border-radius: 16px;
   padding: 20px;
-    max-height: 527px;
+  max-height: 583px;
   height: 100%;
 }
 
 .profile-info .info {
   width: 50%;
-
 }
 
 .profile-info .info h3 {
@@ -82,7 +86,7 @@
 }
 
 .profile-info .info .change-password,
-.profile-info  .upload-image {
+.profile-info .upload-image {
   font-size: 13px;
   letter-spacing: 0.52px;
   color: #000000;
@@ -91,7 +95,7 @@
   width: 100%;
 }
 
-.profile-info  .upload-image {
+.profile-info .upload-image {
   margin-top: 40px;
 }
 
@@ -101,7 +105,7 @@
 .profile-info .upload-image:hover,
 .profile-info .info .change-password:focus,
 .profile-info .upload-image:focus,
-.profile-info .upload-image:active:focus ,
+.profile-info .upload-image:active:focus,
 .profile-info .info .change-password:active:focus {
   background-color: #fcdd06;
 }

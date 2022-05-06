@@ -7,8 +7,6 @@ Soon => [Live Demo](https://proshop-kappa.vercel.app/)
 6. [ ] Payment Success
 7. [ ] Search Result
 10. [ ] Product Details 1 (3 products)
-11. [ ] My Profile
-12. [ ] Products ( Table, edit and delete ) and Create Product
 13. [ ] Create New Product
 14. [ ] Product Details 2 (3 products)
 
@@ -19,3 +17,5 @@ Soon => [Live Demo](https://proshop-kappa.vercel.app/)
 * [x] Sign up
 * [x] Shopping cart
 * [x] Empty cart
+* [x] My Profile
+* [x] Products ( Table, edit and delete ) and Create Product

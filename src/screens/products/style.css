@@ -1,0 +1,87 @@
+.product-table thead th {
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 0.96px;
+  color: #707070;
+}
+
+.product-table .create-product {
+  width: 20%;
+  border-radius: 6px;
+  font-size: 24px;
+  letter-spacing: 0.48px;
+  color: #242424;
+  text-transform: capitalize;
+  
+}
+
+.product-table  a{
+    text-decoration: none;
+    color: #242424;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 50px;
+
+}
+
+.product-table .create-product:hover,
+.product-table .create-product:active,
+.product-table .create-product:active:focus,
+.product-table .create-product:focus{
+    background-color: #fcdd06
+}
+
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+  border: none;
+}
+
+.product-table .table tr td:first-child {
+  border-top-left-radius: 10px;
+}
+.product-table .table tr td:last-child {
+  border-top-right-radius: 10px;
+}
+.product-table .table tr td:first-child {
+  border-bottom-left-radius: 10px;
+}
+.product-table .table tr td:last-child {
+  border-bottom-right-radius: 10px;
+}
+
+.product-table tbody td {
+  font-size: 22px;
+  letter-spacing: 0.88px;
+  color: #242424;
+}
+
+.product-table tbody td.action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+
+.product-table tbody td.action .fa-solid {
+  font-size: 16px;
+  color: #242424;
+  padding: 9px;
+  cursor: pointer;
+  
+}
+.product-table tbody td.action .fa-trash {
+  background-color: #dc3545;
+  color: #fff;
+  border-radius: 6px;
+}
+.product-table tbody td.action .fa-pencil {
+  background-color: #fff;
+  border-radius: 6px;
+}
