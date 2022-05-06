@@ -11,7 +11,7 @@ const EmptyCart = () => {
   return (
     <>
       <Navbars />
-      <Container className='empty-cart-section'>
+      <Container className="empty-cart-section pt-5 pb-5">
         <Row className="pt-5 pb-5">
           <p>Back / Shopping Cart</p>
           <Col className="d-flex flex-column align-items-center justify-content-center empty-cart">

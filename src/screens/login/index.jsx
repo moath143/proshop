@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react";
 import Navbars from "./../../components/navbar";
 import InputForm from "../../components/inputForm";
-import {Link} from 'react-router-dom'
-import { Container, Row, Col, Form, Button } from 'react-bootstrap'
+import { Link } from "react-router-dom";
+import { Container, Row, Col, Form, Button } from "react-bootstrap";
 import LoginImage from "../../Assets/Group 240.png";
-import './style.css'
-import Buttons from './../../components/button';
+import "./style.css";
+import Buttons from "./../../components/button";
 
 const Login = () => {
   return (
@@ -30,7 +30,10 @@ const Login = () => {
                   type={"password"}
                   placeholder={"*********"}
                 />
-                <Buttons title={"Login"} className="btn-login" />
+                <Link to="/profile">
+                  <Buttons title={"Login"} className="btn-login" />
+                </Link>
+
                 <Form.Group className="mb-3" controlId="formBasicCheckbox">
                   <Form.Check type="checkbox" label="Remember me" />
                 </Form.Group>
@@ -53,6 +56,6 @@ const Login = () => {
       </section>
     </>
   );
-}
+};
 
-export default Login
+export default Login;

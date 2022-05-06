@@ -39,11 +39,22 @@
   margin: 20px 0 0 0;
 }
 
+.login form a{
+  text-decoration: none;
+}
+
 .login form .btn-login {
   font-size: 22px;
   letter-spacing: 0.88px;
   color: #242424;
   border-radius: 6px;
+}
+
+.login form .btn-login:active,
+.login form .btn-login:hover,
+.login form .btn-login:focus,
+.login form .btn-login:active:focus{
+  background-color: #fcdd06;
 }
 
 .login form .form-check label {
