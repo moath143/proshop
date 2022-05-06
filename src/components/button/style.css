@@ -12,7 +12,7 @@ button.btn {
 button.btn:active,
 button.btn:focus,
 button.btn:active:focus {
-  /* background: #fcdd06 0% 0% no-repeat padding-box; */
+  background: #fcdd06 0% 0% no-repeat padding-box;
   color: #000;
   outline: none;
   border: none;

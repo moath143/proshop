@@ -11,6 +11,7 @@ import EmptyCart from "./screens/emptyCart";
 import Profile from './screens/profile';
 import Products from './screens/products';
 import CreateProduct from './screens/createProduct';
+import SearchResult from './screens/searchResult';
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
         <Route path="/profile" element={<Profile />} />
         <Route path="/products" element={<Products />} />
         <Route path="/create-product" element={<CreateProduct />} />
+        <Route path="/search-result" element={<SearchResult />} />
       </Routes>
     </div>
   );
