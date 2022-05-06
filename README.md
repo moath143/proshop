@@ -1,5 +1,5 @@
 # ProShop Website
-Soon => [Live Demo](https://proshop-kappa.vercel.app/)
+Soon => [Live Demo](https://proshop-bice.vercel.app/)
  
 ## Doing
 3. [ ] Review order (Shipping and Payment)
