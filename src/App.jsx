@@ -12,6 +12,7 @@ import Profile from './screens/profile';
 import Products from './screens/products';
 import CreateProduct from './screens/createProduct';
 import SearchResult from './screens/searchResult';
+import Payment from './screens/payment';
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
         <Route path="/products" element={<Products />} />
         <Route path="/create-product" element={<CreateProduct />} />
         <Route path="/search-result" element={<SearchResult />} />
+        <Route path="/payment" element={<Payment />} />
       </Routes>
     </div>
   );

@@ -1,0 +1,107 @@
+.payment .row .col-sm-12 > h1 {
+  font-size: 32px;
+  font-weight: 900;
+  letter-spacing: 1.28px;
+  color: #242424;
+  margin-bottom: 30px;
+}
+
+.payment .steps {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.payment .steps .step {
+  display: flex;
+  width: 25%;
+  align-items: center;
+}
+
+.payment .steps .step span {
+  width: 40px;
+  height: 40px;
+  background: #707070 0% 0% no-repeat padding-box;
+  color: #fff;
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: 0.88px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.payment .steps .step p {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding-left: 20px;
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: 0.88px;
+  color: #707070;
+}
+
+.payment .steps .step.one span {
+  background: #fcdd06 0% 0% no-repeat padding-box;
+  color: #242424;
+}
+
+.payment .steps .step.one p {
+  color: #242424;
+}
+
+.payment .steps .step.line {
+  justify-content: center;
+}
+.payment .steps .step.line hr {
+  width: 75%;
+}
+
+.payment .col-md-8 form,
+.payment .col-md-4 .order-details {
+  border-radius: 16px;
+  padding: 40px;
+
+  background: #f2f2f2 0% 0% no-repeat padding-box;
+}
+
+.payment .col-md-8,
+.payment .col-md-4 {
+  margin: 50px 0 0 0;
+}
+
+.payment .col-md-8 form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.payment .col-md-8 form .mb-4 {
+  width: 45%;
+}
+
+.payment .col-md-8 form .mb-4 input {
+  border: 1px solid #707070;
+  border-radius: 6px;
+  background-color: transparent;
+}
+
+.payment .col-md-8 form .mb-4 label {
+  font-size: 22px;
+  letter-spacing: 0.88px;
+  color: #707070;
+}
+
+.payment .col-md-8 form h2 {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 1.28px;
+  color: #242424;
+}
+
+.payment .col-md-8 form h2:last-of-type {
+  margin-top: 50px;
+}

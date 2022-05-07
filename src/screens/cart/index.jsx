@@ -2,10 +2,11 @@ import React from "react";
 import Navbars from "./../../components/navbar";
 import { Container, Row, Col, Image } from "react-bootstrap";
 import Buttons from "../../components/button";
-// import Iphone from "../../Assets/img14.png";
+import Iphone from "../../Assets/img14.png";
 import Airpod from "../../Assets/img15.png";
 import Playsation from "../../Assets/img16.png";
 import "./style.css";
+import { Link } from 'react-router-dom';
 
 const Cart = () => {
   return (
@@ -21,7 +22,7 @@ const Cart = () => {
                 icon={<i className="fa-solid fa-xmark"></i>}
               />
               <div className="cart-item-image">
-                <Image src={Airpod} alt="iphone" thumbnail={true} />
+                <Image src={Iphone} alt="iphone" thumbnail={true} />
               </div>
               <h3>Apple iPhone 11 Pro 256GB Memory</h3>
               <div className="count-item">
@@ -76,7 +77,9 @@ const Cart = () => {
               <p>999.97$</p>
               <h1>989.97$</h1>
               <hr />
-              <Buttons className="proceed" title={"Proceed to Checkout"} />
+              <Link to='/payment'>
+                <Buttons className="proceed" title={"Proceed to Checkout"} />
+              </Link>
             </div>
           </Col>
         </Row>

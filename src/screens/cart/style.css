@@ -103,6 +103,10 @@
   color: #242424;
 }
 
+.cart-total a{
+  text-decoration: none;
+}
+
 .cart-total .proceed {
   font-size: 24px;
   letter-spacing: 0.48px;
