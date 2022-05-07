@@ -3,6 +3,7 @@ import { Container, Row, Col, Form, Image } from "react-bootstrap";
 import "./style.css";
 import Navbars from "./../../components/navbar/index";
 import InputForm from "./../../components/inputForm/index";
+import Buttons from './../../components/button/index';
 
 const Payment = () => {
   return (
@@ -60,9 +61,37 @@ const Payment = () => {
                   </div>
                 </div>
                 <hr />
+                <div className="product">
+                  <Image src="https://via.placeholder.com/100" />
+                  <div className="info">
+                    <p>product name</p>
+                    <div className="price">
+                      <p>$100 X 1</p>
+                      <p>499.99$</p>
+                    </div>
+                  </div>
+                </div>
+                <hr />
+                <div className="subtotal">
+                  <p>
+                    Subtotal <span>589.98&</span>{" "}
+                  </p>
+                  <p>
+                    Tax <span>2.53&</span>{" "}
+                  </p>
+                  <p>
+                    Shipping <span>0.00&</span>{" "}
+                  </p>
+                  <p>
+                    Total <span>592.51&</span>{" "}
+                  </p>
+                </div>
               </div>
             </div>
-          </Col>
+                  </Col>
+                  <div className="btn-review">
+                      <Buttons title={'Review Order'} />
+                  </div>
         </Row>
       </Container>
     </>
