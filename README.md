@@ -2,7 +2,6 @@
 Soon => [Live Demo](https://proshop-bice.vercel.app/)
  
 ## Doing
-3. [ ] Review order (Shipping and Payment)
 5. [ ] Review order (Place an Order)
 6. [ ] Payment Success
 10. [ ] Product Details 1 (3 products)
@@ -19,3 +18,4 @@ Soon => [Live Demo](https://proshop-bice.vercel.app/)
 * [x] Products ( Table, edit and delete ) and Create Product
 * [x] Create New Product
 * [x] Search Result
+* [x] Review order (Shipping and Payment)
