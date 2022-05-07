@@ -1,0 +1,46 @@
+.review .steps .step span {
+  background: #fcdd06 0% 0% no-repeat padding-box;
+  color: #242424;
+}
+.review .steps .step p {
+  color: #242424;
+}
+
+.review .address,
+.review .subtotal {
+  border-radius: 16px;
+  padding: 40px;
+  background: #f2f2f2 0% 0% no-repeat padding-box;
+}
+
+.review .order h2 {
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 1.28px;
+  color: #242424;
+}
+
+.review .order p {
+  font-size: 22px;
+  text-decoration: underline;
+  letter-spacing: 0.44px;
+  color: #707070;
+}
+
+.review a {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 30px;
+  text-decoration: none;
+}
+
+.review a button {
+  background: #fcdd06 0% 0% no-repeat padding-box;
+  border-radius: 10px;
+  font-size: 24px;
+  letter-spacing: 0.48px;
+  color: #242424;
+  text-transform: capitalize;
+  width: 100%;
+  text-align: center;
+}

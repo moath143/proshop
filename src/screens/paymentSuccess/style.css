@@ -1,0 +1,58 @@
+.success {
+  background: #f2f2f2 0% 0% no-repeat padding-box;
+  border-radius: 16px;
+  padding: 20px;
+}
+
+.success .info {
+  margin-top: 40px;
+}
+
+.success .info > p {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 0.96px;
+  color: #242424;
+  text-transform: capitalize;
+}
+
+.success .info > p > span {
+  width: 70%;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0.64px;
+  color: #707070;
+}
+
+.success > p {
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 0.64px;
+  color: #242424;
+  width: 30%;
+}
+
+.success-btn a {
+  text-decoration: none;
+}
+
+.success-btn a button {
+  border-radius: 10px;
+  width: 324px;
+  font-size: 24px;
+  color: #242424;
+  text-transform: capitalize;
+}
+
+.payment-success .row:last-of-type {
+  border: 1px solid #fcdd06;
+  border-radius: 16px;
+}
+
+.payment-success .row:last-of-type .col-sm-4:nth-last-of-type(2) {
+  border-right: 1px solid #f2f2f2;
+  border-left: 1px solid #f2f2f2;
+}

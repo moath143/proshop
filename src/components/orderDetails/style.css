@@ -1,0 +1,40 @@
+ .order-details .order {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ .order-details .order h2 {
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 1.28px;
+  color: #242424;
+}
+
+ .order-details .order p {
+  font-size: 22px;
+  text-decoration: underline;
+  letter-spacing: 0.44px;
+  color: #707070;
+}
+
+ .order-details .product-details .product {
+  margin-top: 20px;
+}
+
+ .order-details .product-details .product,
+ .order-details .product-details .product .price {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+ .order-details .product-details .product .info {
+  width: 80%;
+}
+ .order-details .product-details .product .info p {
+  letter-spacing: 0.44px;
+  color: #707070;
+  font-size: 22px;
+  text-transform: capitalize;
+}

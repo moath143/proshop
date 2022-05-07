@@ -1,0 +1,51 @@
+ .row .col-sm-12 > h1 {
+  font-size: 32px;
+  font-weight: 900;
+  letter-spacing: 1.28px;
+  color: #242424;
+  margin-bottom: 30px;
+}
+ .steps {
+  display: flex;
+  gap: 0.5rem;
+}
+ .steps .step {
+  display: flex;
+  width: 25%;
+  align-items: center;
+}
+ .steps .step span {
+  width: 40px;
+  height: 40px;
+  background: #707070 0% 0% no-repeat padding-box;
+  color: #fff;
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: 0.88px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ .steps .step p {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding-left: 20px;
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: 0.88px;
+  color: #707070;
+}
+ .steps .step.one span {
+  background: #fcdd06 0% 0% no-repeat padding-box;
+  color: #242424;
+}
+ .steps .step.one p {
+  color: #242424;
+}
+ .steps .step.line {
+  justify-content: center;
+} .steps .step.line hr {
+  width: 75%;
+}

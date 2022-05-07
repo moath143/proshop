@@ -13,6 +13,8 @@ import Products from './screens/products';
 import CreateProduct from './screens/createProduct';
 import SearchResult from './screens/searchResult';
 import Payment from './screens/payment';
+import ReviewOrder from './screens/reviewOrder';
+import PaymentSuccess from './screens/paymentSuccess';
 
 
 function App() {
@@ -31,6 +33,8 @@ function App() {
         <Route path="/create-product" element={<CreateProduct />} />
         <Route path="/search-result" element={<SearchResult />} />
         <Route path="/payment" element={<Payment />} />
+        <Route path="/review-order" element={<ReviewOrder />} />
+        <Route path="/payment-success" element={<PaymentSuccess />} />
       </Routes>
     </div>
   );

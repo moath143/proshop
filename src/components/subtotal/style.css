@@ -1,0 +1,11 @@
+ .subtotal > p {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  letter-spacing: 0.32px;
+  color: #707070;
+}
+ .subtotal p:last-of-type {
+  font-weight: bold;
+  color: #242424;
+}

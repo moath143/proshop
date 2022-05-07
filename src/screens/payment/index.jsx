@@ -3,31 +3,18 @@ import { Container, Row, Col, Form, Image } from "react-bootstrap";
 import "./style.css";
 import Navbars from "./../../components/navbar/index";
 import InputForm from "./../../components/inputForm/index";
-import Buttons from './../../components/button/index';
+import Buttons from "./../../components/button/index";
+import Steps from "../../components/steps";
+import OrderDetails from "../../components/orderDetails";
+import { Link } from "react-router-dom";
+import Subtotal from "../../components/subtotal";
 
 const Payment = () => {
   return (
     <>
       <Navbars />
       <Container className="pt-5 pb-5 payment">
-        <Row>
-          <Col sm={12}>
-            <h1>Review Order</h1>
-          </Col>
-          <Col sm={12} className="steps">
-            <div className="step one">
-              <span>1</span>
-              <p>Shipping and Payment</p>
-            </div>
-            <div className="step line">
-              <hr />
-            </div>
-            <div className="step two">
-              <span>2</span>
-              <p>Place an Order</p>
-            </div>
-          </Col>
-        </Row>
+        <Steps />
         <Row>
           <Col md={8}>
             <Form>
@@ -44,54 +31,13 @@ const Payment = () => {
             </Form>
           </Col>
           <Col md={4}>
-            <div className="order-details">
-              <div className="order">
-                <h2>Order Details</h2>
-                <p>Change</p>
-              </div>
-              <div className="product-details">
-                <div className="product">
-                  <Image src="https://via.placeholder.com/100" />
-                  <div className="info">
-                    <p>product name</p>
-                    <div className="price">
-                      <p>$100 X 1</p>
-                      <p>499.99$</p>
-                    </div>
-                  </div>
-                </div>
-                <hr />
-                <div className="product">
-                  <Image src="https://via.placeholder.com/100" />
-                  <div className="info">
-                    <p>product name</p>
-                    <div className="price">
-                      <p>$100 X 1</p>
-                      <p>499.99$</p>
-                    </div>
-                  </div>
-                </div>
-                <hr />
-                <div className="subtotal">
-                  <p>
-                    Subtotal <span>589.98&</span>{" "}
-                  </p>
-                  <p>
-                    Tax <span>2.53&</span>{" "}
-                  </p>
-                  <p>
-                    Shipping <span>0.00&</span>{" "}
-                  </p>
-                  <p>
-                    Total <span>592.51&</span>{" "}
-                  </p>
-                </div>
-              </div>
-            </div>
-                  </Col>
-                  <div className="btn-review">
-                      <Buttons title={'Review Order'} />
-                  </div>
+            <OrderDetails hr={<hr />} subtotal={<Subtotal />} />
+          </Col>
+          <div className="btn-review">
+            <Link to="/review-order">
+              <Buttons title={"Review Order"} />
+            </Link>
+          </div>
         </Row>
       </Container>
     </>
