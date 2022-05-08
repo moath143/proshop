@@ -29,7 +29,6 @@ class RateProducts extends Component {
               <div className="rate text-center d-flex justify-content-center">
                 <ReactStars
                   count={5}
-                  // onChange={ratingChanged}
                   size={32}
                   activeColor="#ffd700"
                   value={Number(product.rating)}
