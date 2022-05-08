@@ -44,3 +44,9 @@
   width: 100%;
   text-align: center;
 }
+
+
+.review a button:hover {
+  background: #fcdd06 0% 0% no-repeat padding-box;
+  color: #000;
+}

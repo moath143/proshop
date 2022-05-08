@@ -11,6 +11,11 @@
   padding: 11.5px 0;
 }
 
+.slider button.btn-slide:hover {
+  background: #fcdd06 0% 0% no-repeat padding-box;
+  color: #000;
+}
+
 .swiper-pagination .swiper-pagination-bullet {
   background: #707070 0% 0% no-repeat padding-box;
   width: 25px;

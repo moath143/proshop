@@ -39,7 +39,7 @@ const PaymentSuccess = () => {
           <Col md={3} className="offset-md-9 mt-5 mb-5">
             <div className="success-btn">
               <Link to="/">
-                <Buttons title={"Keep Shopping"} />
+                <Buttons className='keep-shopping' title={"Keep Shopping"} />
               </Link>
             </div>
           </Col>

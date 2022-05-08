@@ -47,6 +47,11 @@
   text-transform: capitalize;
 }
 
+.success-btn a button.keep-shopping:hover {
+  background: #fcdd06 0% 0% no-repeat padding-box;
+  color: #000;
+}
+
 .payment-success .row:last-of-type {
   border: 1px solid #fcdd06;
   border-radius: 16px;

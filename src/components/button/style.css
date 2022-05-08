@@ -19,9 +19,13 @@ button.btn:active:focus {
   box-shadow: none;
 }
 
-button.btn:hover {
+button.btn-cart:hover {
   background: #fcdd06 0% 0% no-repeat padding-box;
   color: #000;
+}
+
+button.btn:hover{
+  color:#000
 }
 
 .icon-cart {

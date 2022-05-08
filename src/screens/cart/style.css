@@ -113,3 +113,8 @@
   color: #242424;
   border-radius: 10px;
 }
+
+.cart-total .proceed:hover {
+  background: #fcdd06 0% 0% no-repeat padding-box;
+  color: #000;
+}

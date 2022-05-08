@@ -45,6 +45,11 @@
   border-radius: 0 6px 6px 0;
 }
 
+.header .navbar-collapse form button:hover {
+  background: #fcdd06 0% 0% no-repeat padding-box;
+  color: #000;
+}
+
 .navbar-expand-lg {
   background: #242424 0% 0% no-repeat padding-box;
 }

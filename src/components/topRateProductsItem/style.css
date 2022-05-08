@@ -39,9 +39,9 @@
   width: 100%;
 }
 
- .btns-cart .btn-cart:hover {
+ /* .btns-cart .btn-cart:hover {
   background: #fcdd06 0% 0% no-repeat padding-box;
-}
+} */
 
  .btns-cart .icon-cart {
   background: #f2f2f2 0% 0% no-repeat padding-box;
