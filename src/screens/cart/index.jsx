@@ -2,11 +2,15 @@ import React from "react";
 import Navbars from "./../../components/navbar";
 import { Container, Row, Col, Image } from "react-bootstrap";
 import Buttons from "../../components/button";
-import Iphone from "../../Assets/img14.png";
-import Airpod from "../../Assets/img15.png";
-import Playsation from "../../Assets/img16.png";
+// import Iphone from "../../Assets/img14.png";
+// import Airpod from "../../Assets/img15.png";
+// import Playsation from "../../Assets/img16.png";
 import "./style.css";
 import { Link } from 'react-router-dom';
+
+const Iphone = "https://proshop.101bloom.com/Assets/img14.PNG"
+const Airpod = "https://proshop.101bloom.com/Assets/img15.PNG"
+const Playsation = "https://proshop.101bloom.com/Assets/img16.PNG"
 
 const Cart = () => {
   return (
