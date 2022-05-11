@@ -2,11 +2,10 @@ import React from "react";
 import { Container, Row, Col, Card } from "react-bootstrap";
 import ReactStars from "react-rating-stars-component";
 import Navbars from "./../../components/navbar/index";
-import Iphone from "./../../Assets/img20.png";
 import "./style.css";
 import Buttons from "../../components/button";
 import Line from "../../components/line";
-
+const Iphone = "https://proshop.101bloom.com/Assets/img20.PNG"
 const SearchResult = () => {
   return (
     <section className='search'>
