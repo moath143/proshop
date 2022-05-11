@@ -5,10 +5,10 @@ import OrderDetails from "../../components/orderDetails";
 import Steps from "../../components/steps";
 import Subtotal from "../../components/subtotal";
 import "./style.css";
-import Visa from "./../../Assets/visa.png";
 import Buttons from "../../components/button";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
+const Visa = "https://proshop.101bloom.com/Assets/visa.PNG";
 const ReviewOrder = () => {
   return (
     <>
